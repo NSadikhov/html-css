@@ -1,0 +1,339 @@
+﻿body {
+    background-color: #953e46;
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin:0px;
+    border:0px;
+    padding:0px;
+}
+.common{
+    width:1020px;
+    margin:0px auto;
+}
+#header{
+    height: 200px;
+}
+.logo{
+    float:left;
+    line-height:100px;
+    font-size:37px;
+    color:white;  
+}
+.arama{ 
+    float:left;
+    height: 100px;
+    width:480px;
+}
+.arama .textbox{
+    float:left;
+    width:380px;
+    height:40px;
+    margin:30px 50px; 
+    margin-right: 0px;
+    padding:0px 10px;
+    padding-right: 0px;
+    -webkit-text-fill-color: #953e46;
+}
+.arama i{
+    cursor: pointer;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin: 30px 0px;
+    padding: 12px;
+    background-color: white;
+    color: #953e46;
+}
+.upload{
+    cursor: pointer;
+    float: left;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    margin:30px 0px;
+    margin-left: 15px;
+}
+.upload i{
+    font-size: 15px;
+    line-height: 40px;
+    margin-left: 15px;
+    color:#953e46;
+}
+.user{
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin: 30px 25px;
+    margin-right: 0px;
+}
+.user i{
+    line-height: 40px;
+    font-size: 15px;
+    color: #953e46;
+    margin-left: 12.5px;
+    cursor: pointer;
+}
+.user_id{
+    float: left;
+    color:white;
+    margin:27px 10px;
+}
+.navi{
+    margin-top: 20px;
+    float: left; 
+    width: 1020px;
+    line-height: 50px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.navi ul li{
+    list-style: none;
+    display: inline-block;
+}
+.navi ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 22px; 
+}
+ #videos {
+    float: left;
+    margin: 30px 0px;;
+    margin-right: 0px;
+    width: 665px;
+    height: 520px;
+}
+.yazi{
+    float: left;
+    width: 440px;
+
+}
+.bir{
+    float: left;
+    font-size: 30px;
+    color:white;
+    line-height: 40px;
+}
+.iki{
+    float: right;
+    line-height: 50px;
+    color:white;
+}
+.part1{
+    float:left;
+    width: 440px;
+    height: 310px;
+    background-color: white;
+}
+.part1-yazi{
+    margin-top:255px;
+    color: #953e46;
+    margin-left:10px;
+}
+.part1-yazi-sol{
+    float: left;
+    margin-top: 5px;
+    color: #953e46;
+    margin-left: 10px;
+}
+.part1-yazi-sag{
+    float: right;
+    margin-top: 8px;
+    margin-right: 10px;
+    color: #953e46;
+}
+.part2{
+    float: left;
+    width: 215px;
+    background-color: white;
+    height: 150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.part3{
+    float: left;
+    width: 215px;
+    background-color: white;
+    height: 150px;
+    margin-right: 10px;
+}
+.part4{
+    float: left;
+    width: 211px;
+    border: 2px solid white;
+    height: 146px;
+}
+.part4 .icon{
+    float: left;
+    border: 3px solid white;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    margin-left: 25px;
+    margin-top: 52px;
+    margin-right: 10px;
+}
+.part4 .icon i{
+    line-height: 40px;
+    margin-left: 13.5px;
+    color: white;
+}
+.part4 .icon-yazi{
+    color:white;
+    margin-top: 55px;
+}
+.part-yazi-sol{
+    float: left;
+    margin-left: 10px;
+    margin-top: 128px;
+    color: #953e46;
+}
+.part-yazi{
+    float: right;
+    margin-right: 10px;
+    margin-top:130px;
+    color:#953e46;
+}
+#activity{
+    float: left;
+    width: 335px;
+    height: 520px;
+    margin:30px 0px;
+    margin-left:20px;
+}
+.border{
+    float: left;
+    width: 335px;
+    height: 464px;
+    border-top: 4px solid white;
+    border-bottom: 2px solid white;
+}
+.actpart1{
+    float: left;
+    width: 335px;
+    height: 75px;
+}
+.box{
+    float: left;
+    width: 80px;
+    height: 60px;
+    background-color: white;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.act-yazi{
+    margin-top: 15px;
+    color: white;
+}
+#people{
+    float: left;
+    margin: 30px 0px;
+    margin-right: 0px;
+    width: 665px;
+    height: 520px;
+}
+#channels{
+    float: left;
+    width: 335px;
+    height: 695px;
+    margin:30px 0px;
+    margin-left:20px;
+}
+.border2{
+    float: left;
+    width: 335px;
+    height: 639px;
+    border-top: 4px solid white;
+    border-bottom: 2px solid white;
+}
+.chapart1{
+    float: left;
+    width: 335px;
+    height: 125px;
+}
+.chabox{
+    float: left;
+    width: 162.5px;
+    height: 110px;
+    background-color: white;
+    margin-top: 15px;
+}
+.chabox2{
+    float: left;
+    width: 162.5px;
+    height: 110px;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.cha-yazi{
+    margin-left: 10px;
+    margin-top: 85px;
+    font-weight: bold;
+    color: #953e46;
+}
+#documents{
+    float: left;
+    margin: -150px 0px;
+    margin-right: 0px;
+    width: 665px;
+    height: 520px;
+}
+#footer{
+    border-top: 2px solid white;
+    margin-top: 250px;
+    float: left;
+    width: 1020px;
+    height: 200px;
+}
+.compart1{
+    float: left;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    margin-top: 20px;
+}
+.compart1 i{
+    color:#953e46;
+    line-height: 35px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.compart2{
+    float: left;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.compart2 i{
+    color:#953e46;
+    line-height: 35px;
+    padding-left: 12.5px;
+    cursor: pointer;
+}
+.clear{
+    clear: both;
+}
+.footernavi{
+    margin-top: 30px;
+    float: left;
+}
+.footernavi ul li{
+    list-style: none;
+    display: inline-block;
+}
+.footernavi ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footp{
+    padding-top: 30px;
+    color:white;
+    margin-bottom: 10px;
+}
+span{
+    margin: 0px 10px;
+}
